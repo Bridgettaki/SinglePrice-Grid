@@ -1,103 +1,125 @@
-*{
-    margin: 0; 
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: hsl(204, 43%, 93%);
-    font-family: Verdana;
-    padding: 90px;
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: Verdana, sans-serif;
+  padding: 5vw;
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    border-radius: 6px;
-    box-shadow: 0 8px 20px rgb(0,0,0, 0.05);
-    overflow: hidden;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
 
-.top h2{
-    color: hsl(179, 62%, 43%);
-    font-size: 24px;
+.top h2 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
-
 
 #c1 {
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0,0.05);
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 600px;
-    margin: 40px auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
 }
 
-#c1 h2{
-    color: hsl(179, 62%, 43%);
-    font-size: 24px;
-    margin-bottom: 10px;
+#c1 h2 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .highlight {
-    color: hsl(71, 73%, 54%);
-    font-weight: bold;
-    margin-bottom: 10px 0;
+  color: hsl(71, 73%, 54%);
+  font-weight: bold;
+  margin: 0.5rem 0;
 }
 
-.description{
-    color: hsl(218, 22%, 67%);
-    line-height: 1.6;
-    font-size: 14px;
+.description {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6;
+  font-size: 0.9rem;
 }
 
 .bottom {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
 }
 
-.box{
-    flex: 1;
-    padding: 30px;
-    color: white;
+.box {
+  flex: 1 1 300px;
+  padding: 2rem;
+  color: white;
 }
 
-.subscription{
-    background-color: hsl(179, 62%, 43%);
+.subscription {
+  background-color: hsl(179, 62%, 43%);
 }
 
-.subscription .price span{
-    font-size: 16px;
-    font-weight: normal;
+.subscription .price span {
+  font-size: 1rem;
+  font-weight: normal;
 }
 
-.subscription button{
-    background-color: hsl(71, 73%, 54%);
-    color: white;
-    border: none;
-    padding: 12px 100px;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
+.subscription button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
 }
 
-.whyus{
-    background-color: hsl(179, 79%, 49%);
+.whyus {
+  background-color: hsl(179, 79%, 49%);
 }
 
-.whyus ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
+.whyus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
 }
 
-.whyusli{
-    margin-bottom: 10px;
-    font-size: 10px;
+.whyus li {
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: 3vw;
+  }
+
+  .subscription button {
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top h2,
+  #c1 h2 {
+    font-size: 1.3rem;
+  }
+
+  .subscription .price span {
+    font-size: 0.85rem;
+  }
+
+  .
