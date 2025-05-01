@@ -1,0 +1,103 @@
+*{
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: Verdana;
+    padding: 90px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgb(0,0,0, 0.05);
+    overflow: hidden;
+}
+
+.top h2{
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+}
+
+
+#c1 {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0,0.05);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+#c1 h2{
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    margin-bottom: 10px 0;
+}
+
+.description{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.box{
+    flex: 1;
+    padding: 30px;
+    color: white;
+}
+
+.subscription{
+    background-color: hsl(179, 62%, 43%);
+}
+
+.subscription .price span{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.subscription button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    padding: 12px 100px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.whyus{
+    background-color: hsl(179, 79%, 49%);
+}
+
+.whyus ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.whyusli{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
